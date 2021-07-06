@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8F0F6;
+    
+}
+
+
+header{
+    display :flex;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color :#E8F0F6;
+    background-color: #39A2DB;
+}
+header h1{
+    font-size:25px;
+    font-weight: bold;
+}
+
+main{
+    margin:5%;
+    min-height: 70vh;
+}
+
+#grid{
+margin:5%;
+width:100%;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+
+}
+
+fieldset{
+    border: 2px dashed grey;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+
+legend{
+    color:grey;
+}
+
+label{
+    padding-bottom:3px;
+}
+
+input{
+    width:300px;
+}
+
+
+
+thead{
+    background-color: #77ACF1;
+   
+}
+
+.tdHead {
+   
+    padding-top:15px;
+    padding-bottom:15px;
+    height: 10px;
+}
+
+td{ padding :20px;
+width: 50px;
+height: 50px;}
+
+img {
+    width:40px;
+    height: 40px;;
+}
+tr{
+    border-bottom: 5px #E8F0F6 solid;
+}
+tr:nth-child(odd){
+background-color: #77ACF1;
+}
+
+tr:nth-child(even){
+    background-color:  #A2DBFA;
+}
+
+button[type="submit"]{
+    background-color:#71c7ec  ;
+    padding:10px;
+    margin:5px;
+    border: none;
+    color:#E8F0F6;
+    cursor: pointer;
+}
+button[type="button"]{
+    background-color: #a10909 ;
+    padding:10px;
+    margin:5px;
+    border: none;
+    color:#E8F0F6;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    background:#053742;
+    color:#E8F0F6;
+}
